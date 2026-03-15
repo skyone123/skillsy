@@ -30,7 +30,7 @@ const AGENT_CONFIGS = {
   vscode: {
     name: 'VS Code',
     envVar: 'VSCODE_PATH',
-    defaultPath: () => path.join(os.homedir(), '.vscode', 'extensions'),
+    defaultPath: () => path.join(os.homedir(), '.vscode', 'skills'),
     aliases: ['vscode', 'vs-code']
   }
 };

@@ -1,11 +1,11 @@
 {
-  "name": "skillsy",
+  "name": "skillsi",
   "version": "1.0.0",
   "description": "Multi-Agent Skills Installer - Download and install skills from URL archives",
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "skillsy": "./src/index.js"
+    "skillsi": "./src/index.js"
   },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
