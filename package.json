@@ -1,0 +1,32 @@
+{
+  "name": "skillsy",
+  "version": "1.0.0",
+  "description": "Multi-Agent Skills Installer - Download and install skills from URL archives",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "skillsy": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "cli",
+    "skills",
+    "ai-agents",
+    "claude",
+    "codex",
+    "cursor",
+    "cline"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.13.6",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "fs-extra": "^11.3.4"
+  }
+}
