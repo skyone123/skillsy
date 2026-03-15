@@ -1,6 +1,6 @@
 {
   "name": "skillsi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Multi-Agent Skills Installer - Download and install skills from URL archives",
   "type": "module",
   "main": "src/index.js",
